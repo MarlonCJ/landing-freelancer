@@ -61,6 +61,7 @@ a{
     color: var(--blanco);
     padding: 1.4rem 1.8rem;
     border-radius: 1rem;
+    border: none;
 }
 
 .boton:hover{
@@ -68,6 +69,15 @@ a{
     transition: .3s ease-in all;
 }
 
+.boton--color{
+    background-color: var(--oscuro);
+    cursor: pointer;
+}
+
+.boton--color:hover{
+    background-color: var(--secundario);
+    color: var(--oscuro);
+}
 
 .title span{
     font-size: 2rem;
@@ -230,6 +240,7 @@ a{
     color: #000;   
     border-radius: 2rem;
     width: min(60rem, 100%);
+    margin-bottom: 2rem;
 }
 
 .form fieldset{
@@ -252,3 +263,20 @@ a{
    gap: 1rem;
 }
 
+.input input{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.input textarea{
+    height: 15rem;
+    border-radius: 2rem;
+}
+
+
+.footer p{
+    text-align: center;
+    color: var(--oscuro);
+    font-weight: bold;
+}
